@@ -9,7 +9,7 @@ It defines a global PermissionScope object, which permits to requesting permissi
 
 ## Update History
 
-31/10/19 : Apply SWFT5
+31/10/19 : Apply SWIFT5
 
 ## Installation
 
