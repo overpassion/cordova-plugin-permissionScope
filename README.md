@@ -7,14 +7,16 @@
 This plugin is a wrapper of the very helpful Swift framework [PermissionScope](https://github.com/akofman/permissionScope).
 It defines a global PermissionScope object, which permits to requesting permissions from users.
 
+## Update History
+
+31/10/19 : Apply SWFT5
+
 ## Installation
 
 ```
 cordova plugin add cordova-plugin-permissionScope --save
 ```
 The iOS part is written in Swift and the [Swift support plugin](https://github.com/akofman/cordova-plugin-add-swift-support) is configured as a dependency.
-
-:warning: Because this plugin doesn't support Swift 3 at the moment, the following preference has to be added in your project :
 
 `<preference name="UseLegacySwiftLanguageVersion" value="true" />`
 
